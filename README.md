@@ -49,19 +49,13 @@ npm run dev
 
 The app will be running at: [http://localhost:5173](http://localhost:5173)
 
-### 5. Build for production
-
-```bash
-npm run build
-```
-
 ---
 
 ## Project Structure
 
 ```
 src/
-├── assets/        # Images, fonts, static files
+├── assets/        # Images, static files
 ├── components/    # Reusable components
 ├── layouts/       # Layout components
 ├── pages/         # Application pages
