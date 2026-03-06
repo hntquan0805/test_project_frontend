@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 import type { ScoreApiResponse, Student, Top10StudentApiResponse } from "../types";
-import { convertScoreDataToStudent, convertTop10DataToStudent } from "../utils/ScoreConverter";
+import { convertScoreDataToStudent, convertTop10DataToStudent } from "../utils/scoreConverter";
 import apiClient from "./api";
 
 /**
