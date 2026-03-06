@@ -51,6 +51,12 @@ The app will be running at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
+## Demo
+
+[Live Demo](https://drive.google.com/file/d/1GUuZRkCM9BsVJs-V4VFI9P47Drf7R6lZ/view?usp=drive_link)
+
+---
+
 ## Project Structure
 
 ```
