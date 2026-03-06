@@ -2,10 +2,10 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store";
 import RootLayout from "./layouts/RootLayout";
-import Dashboard   from "./pages/DashBoard";
+import Dashboard from "./pages/DashBoard";
 import SearchScores from "./pages/SearchScores";
-import Reports     from "./pages/Reports";
-import Settings    from "./pages/Settings";
+import Reports from "./pages/Reports";
+import Settings from "./pages/Settings";
 
 const App = () => {
   return (
