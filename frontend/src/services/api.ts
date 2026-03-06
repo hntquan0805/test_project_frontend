@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_BASE_URL = `${import.meta.env.VITE_PROTOCOL}://${import.meta.env.VITE_DOMAIN}:${import.meta.env.VITE_PORT}/api`;
+const API_BASE_URL = import.meta.env.VITE_PROTOCOL === 'http'
+  ? `http://${import.meta.env.VITE_DOMAIN}:${import.meta.env.VITE_PORT}/api`
+  : `https://${import.meta.env.VITE_DOMAIN}/api`;
 
 // Axios instance
 const apiClient = axios.create({
